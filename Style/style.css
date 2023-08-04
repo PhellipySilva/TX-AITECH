@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins, sans-serif;
+    color: var(--color-white);
+}
+
+
+
+.img_logo_header{
+    width: 40px;
+}
+.header,
+.navigation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header{
+        display: flex;
+        justify-content: flex-end; /* Alinhar à direita */
+        padding: 0 3%;
+        height: 2em;
+}
+.logo_header{
+    display: flex;
+    justify-content: flex-start; /* Alinhar à direita */
+    padding: 0 3%;
+    height: 2em;
+}
+.navigation_header{
+    gap: 1em;      
+    z-index: 2;
+}
+.content{
+    padding-top: 5em;
+    text-align: right;
+    height: 100vh;
+    transition: 1s;
+}
+.navigation_header a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.navigation_header a:hover{
+    color: #0B8DD4;
+}
+
+.btn_icon_header{
+    background: transparent;
+    border: none;
+    color: var(--color-black);
+    cursor: pointer;
+    display: none;
+}
+
+.bg-image {
+    width: 75%;
+    display: flex;
+    float: right;
+    margin-top: -70px;
+    flex-direction: column;
+    
+}
+
+.cta-1{
+    position: absolute;
+    bottom: 320px;
+    left: 90px;
+    font-size: 40px;
+}
+
+#cta{
+    width: 383px;
+    height: 57px;
+    flex-shrink: 0; /*pesquisar*/
+    border-radius: 12px;
+    background: #0B8DD4;
+    cursor: pointer;
+    position: absolute; /*pesquisar*/
+    bottom: 220px;
+    left: 80px;
+    color: white;
+}
+
+#cta:hover{
+    background: white;
+    border: solid #0B8DD4 0.1px;
+    transition: 0.3s;
+    color: #0B8DD4;
+}
+
+.cta, h3{
+    transform: translate(-50%, -50%); /*pesquisar*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+a{
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navigation_header{
+        position: absolute;
+        flex-direction: column !important;
+        top: 0;
+        background: var(--color-dark5);
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+    }
+    .btn_icon_header{
+        display: block;
+    }
+}
+@keyframes showSidebar {
+    from {margin-left: -100vw;}
+    to {margin-left: -10vw;}
+}
