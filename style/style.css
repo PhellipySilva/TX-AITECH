@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins, sans-serif;
+    color: var(--color-white);
+}
+
+.img_logo_header{
+    width: 40px;
+}
+
+.header,
+.navigation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header{
+        display: flex;
+        justify-content: flex-end; /* Alinhar à direita */
+        padding: 0 3%;
+        height: 2em;
+}
+.logo_header{
+    display: flex;
+    justify-content: flex-start; /* Alinhar à direita */
+    padding: 0 3%;
+    height: 2em;
+}
+.navigation_header{
+    gap: 1em;      
+    z-index: 2;
+}
+.content{
+    padding-top: 5em;
+    text-align: right;
+    height: 100vh;
+    transition: 1s;
+    
+}
+.navigation_header a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.navigation_header a:hover{
+    color:#0B8DD4;
+}
+
+.btn_icon_header{
+    background: transparent;
+    border: none;
+    color: var(--color-black);
+    cursor: pointer;
+    display: none;
+}
+
+.bg-image {
+    width: 75%;
+    display: flex;
+    float: right;
+    margin-top: -70px;
+    flex-direction: column;
+    
+}
+
+.cta-1{
+    position: absolute;
+    left: 300px;
+    bottom: 200px;
+    font-size: 40px;
+    top: 40%;
+    left: 7%;
+    display: block;
+
+}
+
+#cta{
+    width: 383px;
+    height: 57px;
+    flex-shrink: 0; /*pesquisar*/
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: -400px;
+    margin-top: 100px;    
+    background: #0B8DD4;
+}
+
+
+#cta, h3{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+#cta:hover{
+    background-color: white;
+    border: solid #0B8DD4 0.1px;
+}
+#cta:hover > h3{
+    color: #0B8DD4;
+    transition: 0.3s;
+}
+
+a{
+    font-size: 12px;
+}
+
+
+/*Sessão 2 da home*/
+
+.sessao-2{
+    clear: both;
+    background-color: #0B8DD4;
+    height: 100vh;
+}
+
+.sessao-2 > h1{
+    font-size: 30px;
+    display: flex;
+}
+
+.sessao-2 > h1 > span{
+    color: white;
+}
+
+.title-forms, .paragraphy{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+/*Duas formas de ganhos*/
+
+#ganhos > div{
+    margin-top: 5%;
+    display: block;
+    justify-content: center;
+    width: 50%;
+    float: left;
+}
+
+
+.invest-title{
+    margin-top: -40px;
+    color: white;
+    font-size: 40px; 
+    position: relative;
+}
+
+.btn-1{
+    border-radius: 5px;
+    background: #050F2C;
+    width: 487px;
+    height: 57px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-1 > h4{
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sessao-3{
+    clear: both;
+    background-color: white;
+    height: 100vh;
+}
+
+.sessao-3 > h1{
+    color: #161212;
+    font-family: Poppins;
+    margin-top: 10px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+@media screen and (max-width: 768px) {
+    .navigation_header{
+        position: absolute;
+        flex-direction: column !important;
+        top: 0;
+        background: var(--color-dark5);
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+    }
+    .btn_icon_header{
+        display: block;
+    }
+}
+@keyframes showSidebar {
+    from {margin-left: -100vw;}
+    to {margin-left: -10vw;}
+}
