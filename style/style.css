@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: var(--color-white);
 }
 
@@ -154,7 +154,28 @@ a{
     position: relative;
 }
 
+.investidor, .propagador{
+    color: white;
+}
+
 .btn-1{
+    border-radius: 5px;
+    background: #050F2C;
+    width: 487px;
+    height: 57px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.btn-1 > h4{
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
     border-radius: 5px;
     background: #050F2C;
     width: 487px;
@@ -163,7 +184,7 @@ a{
     cursor: pointer;
 }
 
-.btn-1 > h4{
+.btn > h4{
     color: white;
     position: relative;
     top: 50%;
