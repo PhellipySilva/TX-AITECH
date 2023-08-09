@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-white);
+}
+
+.img_logo_header{
+    width: 40px;
+}
+
+.header,
+.navigation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header{
+        display: flex;
+        justify-content: flex-end; /* Alinhar à direita */
+        padding: 0 3%;
+        height: 2em;
+}
+.logo_header{
+    display: flex;
+    justify-content: flex-start; /* Alinhar à direita */
+    padding: 0 3%;
+    height: 2em;
+}
+.navigation_header{
+    gap: 1em;      
+    z-index: 2;
+}
+.content{
+    padding-top: 5em;
+    text-align: right;
+    height: 100vh;
+    transition: 1s;
+    
+}
+.navigation_header a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.navigation_header a:hover{
+    color:#0B8DD4;
+}
+
+.btn_icon_header{
+    background: transparent;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+    display: none;
+}
+
+    .quemsomos {
+        height: 100vh;
+        max-width: 100%;
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .title{
+        color: white;
+        position: relative;
+        text-align: center;
+        margin-top: 7rem;
+        font-size: 40px;
+    }
+
+
+    /*Informações da TX AITECH*/
+
+.info{
+    clear: both;
+    background-color: #0B8DD4;
+}
