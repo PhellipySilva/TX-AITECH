@@ -130,15 +130,20 @@ a{
     color: white;
 }
 
-.title-forms, .paragraphy{
-    margin-left: 40px;
-    margin-top: 10px;
+.title-forms{
+    margin-left: 1rem;
+    padding-top: 2rem;
+}
+
+.paragraphy{
+    margin-left: 1rem;
+    margin-bottom: 3rem;
 }
 
 /*Duas formas de ganhos*/
 
 #ganhos > div{
-    margin-top: 5%;
+    margin-top: 8rem;
     display: block;
     justify-content: center;
     width: 50%;
@@ -191,6 +196,57 @@ a{
     transform: translate(-50%, -50%);
 }
 
+/*GRID*/
+
+.btn-cta{
+    color: white;
+    background-color: #050F2C;
+    border: solid;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+
+.passeios-home {
+    text-align: center;
+}
+
+.passeios-home-lista {
+    display: grid;
+    grid-template-columns: repeat(2, 25rem);
+    gap: 4rem;
+    width: 50rem;
+    margin: 0 auto; /* Adicione esta linha para centralizar o grid */
+    list-style-type: none;
+}
+
+.passeios-home-lista li {
+    background: #fff;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.passeios-home-lista li h2 {
+    font-size: 1.125rem;
+    color: #fff;
+    text-transform: uppercase;
+    height: 200px;
+    background: url("../img/propagador.png") no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passeios-home-lista li:nth-child(2) h2 {
+    background: url("../img/investidor.png") no-repeat;
+}
+
+.passeios-home-lista p {
+    padding: 2rem;
+}
+
 .sessao-3{
     clear: both;
     background-color: white;
@@ -199,12 +255,12 @@ a{
 
 .sessao-3 > h1{
     color: #161212;
-    font-family: Poppins;
-    margin-top: 10px;
-    font-size: 48px;
+    font-family: "Poppins";
+    margin: 9rem 1rem 1rem 1rem;
+    padding-top: 1rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 

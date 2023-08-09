@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -45,7 +48,7 @@ body{
     text-decoration: none;
     color: white;
     transition: 0.3s;
-    font-weight: bold;
+    font-weight: normal;
 }
 .navigation_header a:hover{
     color:#0B8DD4;
@@ -61,7 +64,7 @@ body{
 
     .quemsomos {
         height: 100vh;
-        max-width: 100%;
+        width: 100%;
         position: absolute;
         background-size: cover;
         background-position: center;
@@ -79,6 +82,51 @@ body{
     /*Informações da TX AITECH*/
 
 .info{
-    clear: both;
+    display: block;
     background-color: #0B8DD4;
+}
+
+.container {
+    position: absolute;
+    color: black;
+    top: 60%;
+    margin: 0rem 5rem 5rem 2rem;
+  }
+
+  
+.section-3{
+    background: #050F2C;
+    margin-top: 55rem;
+    height: 100vh;
+}
+
+.section-3 > h1{
+    margin: 1rem 1rem 1rem 1rem;
+    color: white;
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+  @media screen and (max-width: 768px) {
+    .navigation_header{
+        position: absolute;
+        flex-direction: column !important;
+        top: 0;
+        background: var(--color-dark5);
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+    }
+    .btn_icon_header{
+        display: block;
+    }
+}
+@keyframes showSidebar {
+    from {margin-left: -100vw;}
+    to {margin-left: -10vw;}
 }
