@@ -129,21 +129,21 @@ a{
 }
 
 #lead{
-    color: #002EB4;
-    background-color: white;
+    color: white;
+    background-color: #002EB4;
     font-weight: 500;
     text-align: center;
-    padding: 3px 275px 3px 275px;
-    border: solid #0A54A6 3px;
+    padding: 3px 300px 3px 300px;
+    border: solid #0A54A6;
     border-radius: 7px;
-    margin-top: 1rem
+    margin-top: 1rem;
+    transition: 0.6s;
 }
 
 #lead:hover{
-    color: white;
-    background-color: #002EB4;
-    border: solid white 0px;
-    transition: 0.4s;
+    color: #002EB4;
+    background-color: white;
+    transition: 0.6s;
 }
 
   @media screen and (max-width: 768px) {
