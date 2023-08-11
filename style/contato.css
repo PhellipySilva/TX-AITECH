@@ -122,6 +122,24 @@ a{
     margin-left: 2rem; 
 }
 
+#lead{
+    color: #002EB4;
+    background-color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 3px 275px 3px 275px;
+    border: solid #0A54A6 3px;
+    border-radius: 7px;
+    margin-top: 1rem
+}
+
+#lead:hover{
+    color: white;
+    background-color: #002EB4;
+    border: solid white;
+    transition: 0.4s;
+}
+
   @media screen and (max-width: 768px) {
     .navigation_header{
         position: absolute;
