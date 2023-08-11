@@ -45,7 +45,7 @@ body{
     text-decoration: none;
     color: black;
     transition: 0.3s;
-    font-weight: bold;
+    font-weight: normal;
 }
 .navigation_header a:hover{
     color:#0B8DD4;
