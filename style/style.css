@@ -260,6 +260,7 @@ a{
     background-color: #050F2C;
     color: white;
     border: solid #050F2C;
+    border-radius: 0px 0px 5px 5px;
     margin-top: auto; 
     transition: 0.6s;
 }
@@ -290,6 +291,60 @@ a{
     font-weight: 600;
 }
 
+/*Ações disponíveis para investimento*/
+
+.acoes {
+    display: grid;
+    grid-template-columns: repeat(2, 25rem);
+    gap: 1rem;
+    width: 30rem;
+    margin: 0 auto; /* Adicione esta linha para centralizar o grid */
+    list-style-type: none;
+    border-radius: 8px;
+}
+
+.acoes li {
+    background: #0B8DD4;
+    color: white;
+    padding: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+}
+
+.line{
+    width: 3px;
+    height: 9rem;
+    position: absolute;
+    background-color: #0B8DD4;
+    margin-left: 4rem;
+    margin-top: 8rem;
+
+}
+
+.ativos{
+    margin-left: 5rem;
+    margin-top: 10rem;
+    position: absolute;
+    display: block;
+}
+
+.acoes h2{
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.acoes li:hover {
+    background: #050F2C;
+    transition: 0.6s;
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+}
 
 @media screen and (max-width: 768px) {
     .navigation_header{
