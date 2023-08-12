@@ -65,8 +65,6 @@ body{
 a{
     font-size: 12px;
 }
-
-
     .quemsomos {
         right: 0;
         height: 100vh;
@@ -101,9 +99,9 @@ a{
 
   
 .section-3{
-    background: #050F2C;
     margin-top: 55rem;
     height: 100vh;
+    background: #050F2C;
 }
 
 .section-3 > h1{
@@ -115,6 +113,42 @@ a{
     font-weight: 500;
     line-height: normal;
 }
+
+/*Licenças e Prazos*/
+
+.license {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(6, 10rem);
+    gap: 1rem; 
+    margin-top: 0 auto; /* Adicione esta linha para centralizar o grid */
+    list-style-type: none;
+    padding: 10px;
+    margin-top: -30rem; /*Mudar para alguma outra forma mais viável e semantica de deixar na dobra requerida*/
+    border-radius: 1px;
+}
+
+.license li {
+    color: white;
+    font-size:10px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 1px;
+    text-align: left;
+    display: flex;
+}
+
+.license li > div {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(6, 10rem);
+    gap: 1rem; 
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 20rem; /*Mudar para alguma outra forma mais viável e semantica de deixar na dobra requerida*/
+    overflow: hidden;
+}   
 
   @media screen and (max-width: 768px) {
     .navigation_header{
