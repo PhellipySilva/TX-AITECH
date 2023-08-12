@@ -131,24 +131,91 @@ a{
 .license li {
     color: white;
     font-size:10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
     text-align: center;
     padding: 10px;
     cursor: pointer;
     border-radius: 1px;
     text-align: left;
     display: flex;
-}
+} 
 
-.license li > div {
+.license-2 {
     display: grid;
     position: relative;
     grid-template-columns: repeat(6, 10rem);
     gap: 1rem; 
+    margin-top: 0 auto; /* Adicione esta linha para centralizar o grid */
     list-style-type: none;
     padding: 10px;
-    margin-top: 20rem; /*Mudar para alguma outra forma mais viável e semantica de deixar na dobra requerida*/
-    overflow: hidden;
-}   
+    margin-top: -1rem; /*Mudar para alguma outra forma mais viável e semantica de deixar na dobra requerida*/
+    border-radius: 1px;
+}
+
+.license-2 li {
+    color: white;
+    font-size:10px;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    text-align: center;
+    padding:30%;
+    cursor: pointer;
+    border-radius: 1px;
+    text-align: left;
+    display: flex;
+} 
+
+.license-2 li > h1 {
+    font-weight: 300;
+    color: #050F2C;
+    position: absolute;
+    display: contents;
+}
+
+.license-3 {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(6, 10rem);
+    gap: 1rem; 
+    margin-top: 0 auto; /* Adicione esta linha para centralizar o grid */
+    list-style-type: none;
+    padding: 0px 10px 10px 10px;
+    margin-top: -1rem; /*Mudar para alguma outra forma mais viável e semantica de deixar na dobra requerida*/
+    border-radius: 1px;
+}
+
+.license-3 li {
+    color: white;
+    font-size:10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.3rem;
+    cursor: pointer;
+    border-radius: 1px;
+    text-align: left;
+    display: flex;
+    border-radius: 3px;
+    background: #66F622;
+    margin: -0.5rem 1rem 1rem 1rem;
+} 
+
+
+.license-3 li:hover {
+    color: white;
+    cursor: pointer;
+    background: #0B8DD4;
+} 
+
+.license-3 li > h1 {
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    display: contents;
+}
 
   @media screen and (max-width: 768px) {
     .navigation_header{
