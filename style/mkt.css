@@ -76,8 +76,9 @@ a{
         .container {
             position: absolute;
             color: black;
+            text-align: center;
             top: 60%;
-            margin: 0rem 5rem 5rem 2rem;
+            margin: 0rem 5rem 5rem 24rem;
         }
 
         .container > h2  {
@@ -94,7 +95,7 @@ a{
     display: grid;
     position: relative;
     grid-template-columns: repeat(4, 13rem);
-    gap: 3rem; 
+    gap: 2rem; 
     margin-top: 0 auto; /* Adicione esta linha para centralizar o grid */
     margin-top: 25rem; /*Mudar para alguma outra forma mais viável e semantica de deixar na dobra requerida*/
     justify-content: center;
@@ -104,7 +105,7 @@ a{
 .license li {
     font-size: 20px;
     font-weight: normal;
-    padding: 7rem;
+    padding: 7rem 2rem 7rem 3rem;
     cursor: pointer;
     border-radius: 20px;
 }
@@ -127,4 +128,6 @@ a{
     padding-top: 5rem;
     display: flex;
     color: white;
+    display: block;
+    text-align: center;
 }
