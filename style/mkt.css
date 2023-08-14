@@ -72,3 +72,59 @@ a{
         margin-top: 7rem;
         font-size: 40px;
     }
+
+        .container {
+            position: absolute;
+            color: black;
+            top: 60%;
+            margin: 0rem 5rem 5rem 2rem;
+        }
+
+        .container > h2  {
+            margin-top: 3rem;
+        }
+
+        .container > h2 > span {
+            color: #0B8DD4;
+        }
+
+/*CASHBACKS*/
+
+.license {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(4, 13rem);
+    gap: 3rem; 
+    margin-top: 0 auto; /* Adicione esta linha para centralizar o grid */
+    margin-top: 25rem; /*Mudar para alguma outra forma mais viável e semantica de deixar na dobra requerida*/
+    justify-content: center;
+    list-style-type: none;
+}
+
+.license li {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 7rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.license li h1{
+    display: block;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+/*Emblemas*/
+
+
+.emblemas {
+    width: 100%;
+    height: 140vh;
+    overflow-x: hidden; /* Esconde o overflow horizontal */
+    background: linear-gradient(116deg, #0B8DD4 0%, #0A54A6 46.25%, #002EB4 100%);
+    margin-top: 9rem;
+    padding-top: 5rem;
+    display: flex;
+    color: white;
+}
