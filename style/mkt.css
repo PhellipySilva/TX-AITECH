@@ -78,6 +78,7 @@ a{
             color: black;
             text-align: center;
             top: 60%;
+
             margin: 0rem 5rem 5rem 24rem;
         }
 
@@ -102,6 +103,10 @@ a{
     margin-top: 25rem; /*Mudar para alguma outra forma mais viável e semantica de deixar na dobra requerida*/
     justify-content: center;
     list-style-type: none;
+}
+
+.licensas{
+    text-align: center;
 }
 
 .license li {
