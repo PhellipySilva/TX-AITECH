@@ -122,7 +122,6 @@ a{
 .sessao-2{
     clear: both;
     background-color: #0B8DD4;
-    height: 100vh;
 }
 
 .sessao-2 > h1{
@@ -283,7 +282,6 @@ a{
     display: block;
     clear: both;
     background-color: white;
-    height: 100vh;
 }
 
 .sessao-3 > h1{
@@ -299,9 +297,20 @@ a{
 
 .sessao-4{
     clear: both;
-    margin-top: 36rem;
+    margin-top: 2rem;
     background: #050F2C;
-    height: 100vh;
+    color: #fff;
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+.sessao-4 h1{
+    font-size: 2rem;
+}
+
+.sessao-4 p{
+    margin-right: 4rem;
+    text-align: justify;
 }
 /*Ações disponíveis para investimento*/
 
