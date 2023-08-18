@@ -294,24 +294,6 @@ a{
     font-weight: 600;
 }
 
-
-.sessao-4{
-    clear: both;
-    margin-top: 2rem;
-    background: #050F2C;
-    color: #fff;
-    padding-left: 3rem;
-    padding-top: 3rem;
-}
-
-.sessao-4 h1{
-    font-size: 2rem;
-}
-
-.sessao-4 p{
-    margin-right: 4rem;
-    text-align: justify;
-}
 /*Ações disponíveis para investimento*/
 
 .acoes {
@@ -365,6 +347,64 @@ a{
     border-radius: 5px;
     text-align: left;
     display: flex;
+}
+
+.sessao-4{
+    clear: both;
+    margin-top: 2rem;
+    background: #050F2C;
+    color: #fff;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.sessao-4 h1{
+    font-size: 2rem;
+}
+
+.sessao-4 p{
+    margin-right: 4rem;
+    text-align: justify;
+}
+
+.mercadoForex{
+    border-radius: 12px;
+    width: 400px;
+}
+
+.sessao-5{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+
+.vantagensTx {
+    display: grid;
+    grid-template-columns: repeat(3, 25rem);
+    gap: 1rem;
+    list-style-type: none;
+    overflow-x: hidden; 
+    margin-bottom: 3rem
+}
+
+.vantagensTx li {
+    margin-top: 2rem;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+.sessao-6{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    background: #EDF0FF;
+}
+
+.sessao-6 h2{
+    text-align: left;
+    padding-top: 1rem;
 }
 
 @media screen and (max-width: 768px) {
