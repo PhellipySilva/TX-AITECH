@@ -95,23 +95,30 @@ a{
     padding: 10px 27px 10px 27px;
     color: white;
     background: #0B8DD4;
-    border-radius: 3px;
-    font-weight: 500;
+    border-radius: 5px;
+    font-weight: 600;
     border: none;
+    transition: 0.7s;
+}
+
+.ctaSite:hover{
+    color: white;
+    background: #050F2C;
+    transition: 0.7s;
 }
 
 
 .section-2 {
-    position: absolute;
     color: black;
-    top: 60%;
-    margin: 0rem 5rem 5rem 2rem;
-  }
+    margin: 13rem 5rem 5rem 2rem;
+}
 
-  
-.section-3{
-    color: black;
+
+.section-3 {
+    color: white;
     background: #050F2C;
+    padding: 2rem;
+    margin-top: 2rem;
 }
 
 
