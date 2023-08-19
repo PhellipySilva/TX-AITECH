@@ -370,7 +370,7 @@ a{
 
 .mercadoForex{
     border-radius: 12px;
-    width: 400px;
+    width: 300px;
 }
 
 .sessao-5{
@@ -385,7 +385,7 @@ a{
     gap: 1rem;
     list-style-type: none;
     overflow-x: hidden; 
-    margin-bottom: 3rem
+    margin-bottom: 6rem
 }
 
 .vantagensTx li {
@@ -396,16 +396,27 @@ a{
     display: block;
 }
 
-.sessao-6{
-    padding-top: 2rem;
-    padding-left: 3rem;
-    background: #EDF0FF;
+.sessao-6 {
+    position: relative;
+    background-color: #EDF0FF;
 }
 
-.sessao-6 h2{
-    text-align: left;
+.overlay {
+    position: absolute;
+    z-index: 2; 
+}
+
+.overlay h2 {
+    padding-left: 38rem;
+    padding-top: 8rem;
+}
+
+.overlay P {
+    padding-left: 38rem;
     padding-top: 1rem;
 }
+
+
 
 @media screen and (max-width: 768px) {
     .navigation_header{

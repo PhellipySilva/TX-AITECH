@@ -78,7 +78,6 @@ a{
             color: black;
             text-align: center;
             top: 60%;
-
             margin: 0rem 5rem 5rem 24rem;
         }
 
@@ -90,7 +89,6 @@ a{
             color: #0B8DD4;
         }
 
-/*CASHBACKS*/
 
  /*Adicionar responsividade nessa sessão*/
  
@@ -127,15 +125,11 @@ a{
 
 
 .emblemas {
-    width: 100%;
-    height: 140vh;
     overflow-x: hidden; /* Esconde o overflow horizontal */
     background: linear-gradient(116deg, #0B8DD4 0%, #0A54A6 46.25%, #002EB4 100%);
     margin-top: 9rem;
     padding-top: 5rem;
-    display: flex;
     color: white;
-    display: block;
     text-align: center;
 }
 
