@@ -282,7 +282,7 @@ img {
     outline: none;
   }
   
-  input[type="email"]::placeholder {
+  .section6 input[type="email"]::placeholder {
     color: #fff;
   }
 
