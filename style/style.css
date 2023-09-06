@@ -60,56 +60,45 @@ body{
 }
 
 .bg-image {
-    width: 75%;
-    display: flex;
-    float: right;
+    width: 800px;
     margin-top: -70px;
-    flex-direction: column;
+    padding-left: 70px;
+}
+
+.alignCta{
+    padding-left: 20px;
+    padding-top: 200px;
 }
 
 .cta-1{
-    position: absolute;
-    left: 300px;
-    bottom: 200px;
     font-size: 40px;
-    top: 40%;
-    left: 7%;
-    display: block;
+    font-weight: 600;
+    padding-bottom: 8px;
 }
 
-#cta{
-    width: 383px;
-    height: 57px;
-    flex-shrink: 0; /*pesquisar*/
-    border-radius: 12px;
+#ctaButton button{
     cursor: pointer;
-    position: fixed;
-    display: block;
-    margin-left: -25rem;
-    margin-top: 100px;    
+    font-size: 20px;
+    font-weight: 700;
+    width: 367px;
+    height: 57px;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
     background: #0B8DD4;
+    transition: 0.7s;
 }
 
-.cta-1, #cta{
-    display: block;
+#ctaButton button:hover{
+    background-color: #fff;
+    color: #0891DD;
+    border: solid #0891DD 0.5px;
+    transition: 0.7s;
 }
 
-#cta, h3{
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.3s;
-}
-
-#cta:hover{
-    background-color: white;
-    border: solid #0B8DD4 0.1px;
-}
-#cta:hover > h3{
-    color: #0B8DD4;
-    transition: 0.3s;
+.containerUm{
+    display: flex;
+    justify-content: center;
 }
 
 a{
@@ -124,12 +113,12 @@ a{
     background-color: #0B8DD4;
 }
 
-.sessao-2 > h1{
+.sessao-2 h1{
     font-size: 30px;
     display: flex;
 }
 
-.sessao-2 > h1 > span{
+.sessao-2 h1, span{
     color: white;
 }
 
@@ -288,7 +277,7 @@ a{
     background-color: white;
 }
 
-.sessao-3 > h1{
+.sessao-3 h1{
     color: #161212;
     font-family: "Poppins";
     margin: 9rem 1rem 1rem 1rem;
@@ -381,7 +370,7 @@ a{
 .sessao-5{
     margin-top: 2rem;
     margin-left: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.5rem;    
 }
 
 .sessao-5 h4{
@@ -392,6 +381,7 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 25rem);
     gap: 1rem;
+    justify-content: center;
     list-style-type: none;
     overflow-x: hidden; 
     margin-bottom: 6rem
@@ -478,7 +468,7 @@ footer{
   }
   
   .sectionCta{
-    width: 100%;
+    
     height: auto;
   }
 
