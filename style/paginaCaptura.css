@@ -9,6 +9,48 @@ body{
   overflow-x: hidden;
 }
 
+.header,
+.navigation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header{
+        display: flex;
+        justify-content: flex-end; /* Alinhar à direita */
+        padding: 0 3%;
+        height: 2em;
+}
+
+.navigation_header{
+    gap: 1em;      
+}
+
+.navigation_header a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    font-weight: normal;
+}
+.navigation_header a:hover{
+    color:#0B8DD4;
+}
+
+.btn_icon_header{
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+a{
+    font-size: 12px;
+}
+
+.header {
+    position: relative;
+}
+
 h1 {
   color: white;
   font-size: 36px;

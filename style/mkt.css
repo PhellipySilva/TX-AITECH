@@ -32,8 +32,8 @@ body{
     text-align: right;
     height: 100vh;
     transition: 1s;
-    
 }
+
 .navigation_header a{
     text-decoration: none;
     color: white;
@@ -56,109 +56,6 @@ a{
     font-size: 12px;
 }
 
-.mkt{
-        right: 0;
-        height: 100vh;
-        width: 100vw;
-        position: absolute;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .title{
-        color: white;
-        position: relative;
-        text-align: center;
-        margin-top: 7rem;
-        font-size: 40px;
-    }
-
-        .container {
-            position: absolute;
-            color: black;
-            text-align: center;
-            top: 60%;
-            margin: 0rem 5rem 5rem 24rem;
-        }
-
-        .container > h2  {
-            margin-top: 3rem;
-        }
-
-        .container > h2 > span {
-            color: #0B8DD4;
-        }
-
-
- /*Adicionar responsividade nessa sessão*/
- 
-.license {
-    display: grid;
-    position: relative;
-    grid-template-columns: repeat(4, 13rem);
-    gap: 2rem; 
-    margin-top: 0 auto; /* Adicione esta linha para centralizar o grid */
-    margin-top: 25rem; /*Mudar para alguma outra forma mais viável e semantica de deixar na dobra requerida*/
-    justify-content: center;
-    list-style-type: none;
+.section1{
+    background: url(../img/mkt.png);  
 }
-
-.licensas{
-    text-align: center;
-}
-
-.license li {
-    font-size: 20px;
-    font-weight: normal;
-    padding: 7rem 2rem 7rem 3rem;
-    cursor: pointer;
-    border-radius: 20px;
-}
-
-.license li h1{
-    display: block;
-    font-size: 60px;
-    margin-top: 10px;
-}
-
-/*Emblemas*/
-
-
-.emblemas {
-    overflow-x: hidden; /* Esconde o overflow horizontal */
-    background: linear-gradient(116deg, #0B8DD4 0%, #0A54A6 46.25%, #002EB4 100%);
-    margin-top: 9rem;
-    padding-top: 5rem;
-    color: white;
-    text-align: center;
-}
-
-.emblemas-icons{
-    display: grid;
-    grid-template-columns: repeat(7, 1rem);
-    margin-top: 5rem; /*Mudar para alguma outra forma mais viável e semantica de deixar na dobra requerida*/
-    justify-content: center;
-    list-style-type: none;
-}
-
-.emblemas-icons img{
-    max-width: 70%;
-}
-
-.emblemas-icons {
-    list-style: none;
-    display: flex;
-  }
-  
-  .podium {
-    background-color: white;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
-    padding-left: 1rem;
-    padding-bottom: 9rem;
-  }
-  
-  .podium img {
-    background-color: white;
-  }
-
