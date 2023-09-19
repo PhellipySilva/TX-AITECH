@@ -76,7 +76,6 @@ a {
 
 .info {
   display: block;
-  background-color: #0b8dd4;
 }
 
 .ctaSite {
@@ -141,8 +140,8 @@ footer{
 }
 
 footer h4{
-  padding-bottom: 23px;
-  font-size: 35px;
+  padding-bottom: 10px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -162,7 +161,7 @@ footer h4{
 }
 
 .sectionCta{
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 
