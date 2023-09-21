@@ -1,6 +1,6 @@
 {
     "routes": [
-      { "src": "/mypages/(.*)", "dest": "/$1" }
+      { "src": "/pages/(.*)", "dest": "/$1" }
     ]
   }
   
