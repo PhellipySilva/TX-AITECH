@@ -180,7 +180,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+ flex-direction: column;
 }
 
 .section3 h3{
@@ -271,7 +271,6 @@ img {
   border-radius: 6px;
   background: #FFF;
   width: 281px;
-  height: 326px;
 }
 
   .section5 img{
