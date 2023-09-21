@@ -522,3 +522,20 @@ footer{
   color: #EDF0FF;
 }
   
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #conteudoDesktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+        margin: 10px;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+}
