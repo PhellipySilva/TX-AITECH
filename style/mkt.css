@@ -36,7 +36,7 @@ body{
 
 .navigation_header a{
     text-decoration: none;
-    color: white;
+    color: black;
     transition: 0.3s;
     font-weight: normal;
 }
@@ -56,6 +56,21 @@ a{
     font-size: 12px;
 }
 
-.section1{
-    background: url(../img/mkt.png);  
+.mkt {
+    background-image: url("../img/mkt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    position: relative;
+  }
+
+  .title{
+    color: white;
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 150px;
 }
+
