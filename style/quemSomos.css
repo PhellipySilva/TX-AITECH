@@ -89,14 +89,24 @@ a {
 
 .section-2 {
   color: black;
-  margin: 13rem 5rem 5rem 2rem;
+  margin: 70px 80px 80px 32px;
 }
 
 .section-3 {
   color: white;
-  background: #050f2c;
+  background: #143db7; /* Alteração temporária*/
   padding: 2rem;
   margin-top: 2rem;
+}
+
+.section-3 h2{
+  font-size: 30px;
+}
+
+.tabelas{
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+  padding-top: 45px;
 }
 
 @media screen and (max-width: 768px) {
