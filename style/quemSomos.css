@@ -94,7 +94,7 @@ a {
 
 .section-3 {
   color: white;
-  background: #143db7; /* Alteração temporária*/
+  background: #050F2C; /* Alteração temporária*/
   padding: 2rem;
   margin-top: 2rem;
 }
@@ -103,11 +103,114 @@ a {
   font-size: 30px;
 }
 
+
+/*Licenças da TX - Tabelas*/
+
 .tabelas{
   display: grid;
-  grid-template-columns: repeat(6, 200px);
+  grid-template-columns: repeat(6, 210px);
   padding-top: 45px;
 }
+
+.tabelas li{
+  margin-left: 10px;
+}
+
+.section-3 li div{
+  height: 254px; 
+  padding-top: 40px;
+}
+
+.vantagens{
+  background-color: #fff;
+  text-align: center;
+  color: black;
+}
+
+.vantagensTwo{
+  margin-top: 10px;
+  background-color: #fff;
+  text-align: left;
+  color: rgb(34, 34, 34);
+  font-weight: 300;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.Stand{
+  background-color: #66F622;
+  text-align: center;
+}
+
+.StandTwo{
+  margin-top: 10px;
+  background-color: #fff;
+  color: #66F622;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.Smart{
+  background-color: #1035A0;
+  text-align: center;
+}
+
+.SmartTwo{
+  margin-top: 10px;
+  background-color: #1035A0 ;
+  text-align: center;;
+  font-size: 30px;
+  font-weight: 900;
+  padding-left: 10px;
+}
+
+.Evo{
+  background-color: #881FBA;
+  text-align: center;
+}
+
+.EvoTwo{
+  margin-top: 10px;
+  background-color: #881FBA;
+  text-align: center;
+  padding-left: 10px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.Select{
+  background-color: #CF219E;;
+  text-align: center;
+}
+
+.SelectTwo{
+  margin-top: 10px;
+  background-color: #CF219E;
+  text-align: center;
+  padding-left: 10px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.Prime{
+  background-color: #F3AF00;
+  text-align: center;
+}
+
+.PrimeTwo{
+  margin-top: 10px;
+  background-color: #F3AF00;
+  text-align: center;
+  padding-left: 10px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .navigation_header {
