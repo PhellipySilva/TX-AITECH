@@ -94,8 +94,175 @@ a{
         font-size: 0.9rem;
         font-weight: normal;
         padding-top: 3em;
-        padding-left: 5rem;
         padding-right: 5rem;
+    }
+
+    .form{
+       background: linear-gradient(92deg, #0B8DD4 30.75%, #0A54A6 56.59%, #002EB4 86.62%);
+       height: 500px;
+       display: flex;
+       justify-content: center;
+    }
+
+    .form h5{ 
+        width: 250px;
+        color: #fff;
+        
+    }
+
+    .cta-form{
+        padding-top: 170px;
+        padding-left: 50px;
+    }
+
+    .vertical-line {
+        border-left: 2px solid #000; 
+        height: 100px; 
+        
+    }
+
+    .formulario{
+        margin-top: 70px;
+        margin-left: 30px;
+        background: #fff;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+    }
+
+    .list-contact{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2, 600px);
+    }
+
+    input{
+        border: 0;
+        border-bottom: 1px solid #16121299 ;
+        outline: none;
+    }
+
+    input:focus{
+        border-bottom: 1px solid cornflowerblue;
+    }
+
+    textarea{
+        border: 0;
+        border-bottom: 1px solid #16121299 ;
+        outline: none;
+    }
+
+    textarea:focus{
+        border-bottom: 1px solid cornflowerblue;
+    }
+
+    .enviar{
+        color: #072068;
+        border: solid #0B8DD4 1px;
+        background-color: #fff;
+        width: 100%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        transition: 0.7s;
+    }
+
+    .enviar:hover{
+        color: #fff;
+        background-color: #0B8DD4;
+        transition: 0.7s;
+    }
+
+    footer{
+        background-color: #050F2C;
+        color: #fff;
+        padding-top: 55px;
+        padding-left: 100px;
+      }
+    
+      footer h4{
+        padding-bottom: 23px;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      
+      .geral h5{
+        font-size: 13px;
+        margin-left: 7px;
+        font-weight: 400;
+      }
+    
+      .info{
+        display: flex;
+      }
+    
+      .rodape{
+        display: grid;
+        grid-template-columns: repeat(2, 650px);
+      }
+      
+      .sectionCta{
+        width: 100%;
+        height: auto;
+      }
+    
+      .sectionCta h4{
+        width: 300px;
+        padding-bottom: 5px;
+      }
+    
+    
+      .sectionCta button{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        width: 275.758px;
+        border: none;
+        height: 39px;
+        border-radius: 6px;
+        background: #0B8DD4;
+        transition: 0.7s;
+      }
+    
+      .sectionCta button:hover{
+        color: #0891DD;
+        background-color: #fff;
+        transition: 0.7s;
+      }
+    
+      .sectionBottom a{
+        list-style: none;
+        color: #fff;
+        text-decoration: none;
+      }
+      
+       li{
+        list-style: none;
+      }
+    
+      .sectionBottom ul{
+        padding-top: 35px;
+        display: grid;
+        grid-template-columns: repeat(5, 80px 100px 250px 180px 200px );
+      }
+    
+    .security ul{
+      display: grid;
+      grid-template-columns: repeat(2, 14rem);
+      justify-content: right;
+      text-align: center;
+      padding-right: 30px;
+    }
+    
+    
+    .security p{
+      font-size: 12px;
+    }
+      
+    .mobile{
+        display: none;
     }
 
 

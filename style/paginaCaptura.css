@@ -366,10 +366,16 @@ img {
     display: flex;
   }
 
-  .info h5, img{
+  .info h5 img{
     font-weight: 300;
     padding-top: 5px;
     padding-left: 10px;
+  }
+
+  .geral h5{
+    font-size: 13px;
+    margin-left: 7px;
+    font-weight: 400;
   }
 
   .rodape{
