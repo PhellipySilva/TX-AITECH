@@ -100,6 +100,11 @@ a{
     text-align: center;
 }
 
+.section-2 h3{
+    margin-top: 70px;
+    font-size: 25px;
+}
+
 .section-3 li:hover{
     color: #0B8DD4;
     transition: 0.7s;
