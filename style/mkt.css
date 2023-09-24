@@ -74,3 +74,33 @@ a{
     padding-top: 150px;
 }
 
+.section-2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.section-2 h3{
+    margin-top: 40px;
+}
+
+.section-3 ul{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+    cursor: pointer;
+}
+
+.section-3 li{
+    background-color: none;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    border-radius: 4px;
+    margin: 25px 0px 0px 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.section-3 li:hover{
+    color: #0B8DD4;
+    transition: 0.7s;
+}
