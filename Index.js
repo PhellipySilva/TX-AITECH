@@ -36,3 +36,6 @@ window.addEventListener('resize', function(event) {
         toggleSidebar();
     }
 });
+
+// Accordion animation
+
