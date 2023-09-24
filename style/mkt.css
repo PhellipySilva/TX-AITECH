@@ -109,3 +109,130 @@ a{
     color: #0B8DD4;
     transition: 0.7s;
 }
+
+.section-4{
+    margin-top: 70px;
+    padding: 40px;
+    background: linear-gradient(92deg, #0B8DD4 30.75%, #0A54A6 56.59%, #002EB4 86.62%);
+    color: #fff;
+}
+
+.section-4 h3{
+    text-align: center;
+    padding-top: 44px;
+    font-size: 35px;
+}
+
+.section-4 h5{
+    text-align: center;
+    font-weight: 400;
+}
+
+.section-4 ul{
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.section-4 li{
+    list-style: none;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    color: #121416B2 ;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section-4 li:hover{
+    color: black;
+    background-color: rgb(252, 248, 20);
+}
+
+footer{
+    background-color: #050F2C;
+    color: #fff;
+    padding-top: 55px;
+    padding-left: 100px;
+  }
+
+  footer h4{
+    padding-bottom: 23px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .geral h5{
+    font-size: 13px;
+    margin-left: 7px;
+    font-weight: 400;
+  }
+
+  .info{
+    display: flex;
+  }
+
+  .rodape{
+    display: grid;
+    grid-template-columns: repeat(2, 650px);
+  }
+  
+  .sectionCta{
+    width: 100%;
+    height: auto;
+  }
+
+  .sectionCta h4{
+    width: 300px;
+    padding-bottom: 5px;
+  }
+
+
+  .sectionCta button{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    width: 275.758px;
+    border: none;
+    height: 39px;
+    border-radius: 6px;
+    background: #0B8DD4;
+    transition: 0.7s;
+  }
+
+  .sectionCta button:hover{
+    color: #0891DD;
+    background-color: #fff;
+    transition: 0.7s;
+  }
+
+  .sectionBottom a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+   li{
+    list-style: none;
+  }
+
+  .sectionBottom ul{
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(5, 80px 100px 250px 180px 200px );
+  }
+
+.security ul{
+  display: grid;
+  grid-template-columns: repeat(2, 14rem);
+  justify-content: right;
+  text-align: center;
+  padding-right: 30px;
+}
+
+
+.security p{
+  font-size: 12px;
+}
