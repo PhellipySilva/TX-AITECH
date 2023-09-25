@@ -244,6 +244,7 @@ a{
       }
     
       .sectionBottom ul{
+        margin-bottom: 0;
         padding-top: 35px;
         display: grid;
         grid-template-columns: repeat(5, 80px 100px 250px 180px 200px );
