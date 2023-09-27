@@ -372,5 +372,18 @@ font-size: 12px;
     padding-top:30px;
     align-items: center;
   }
+.sectionBottom ul{
+  display: grid;
+  grid-template-columns: repeat(1,3280px);
+}
+
+footer{
+  padding-left: 20px;
   
+}
+
+  .rodape{
+    display: grid;
+    grid-template-columns: (1, 20px);
+  }
 }
