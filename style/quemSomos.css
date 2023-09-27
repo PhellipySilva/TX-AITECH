@@ -377,10 +377,23 @@ font-size: 12px;
   grid-template-columns: repeat(1,3280px);
 }
 
+.section-3{
+  align-items: center;
+  justify-content: center;
+  padding-left: 70px;
+}
+
 footer{
   padding-left: 20px;
   
 }
+/* 
+.sectionCta{
+  display: none;
+}
+.security{
+  display: none;
+} */
 
   .rodape{
     display: grid;
