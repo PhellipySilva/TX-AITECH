@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "Poppins", sans-serif;
   color: var(--color-white);
@@ -18,7 +19,8 @@ body {
 
 .header {
   display: flex;
-  justify-content: flex-end; /* Alinhar à direita */
+  justify-content: flex-end;
+  /* Alinhar à direita */
   padding: 0 3%;
   height: 2em;
 }
@@ -27,18 +29,21 @@ body {
   gap: 1em;
   z-index: 2;
 }
+
 .content {
   padding-top: 5em;
   text-align: right;
   height: 100vh;
   transition: 1s;
 }
+
 .navigation_header a {
   text-decoration: none;
   color: black;
   transition: 0.3s;
   font-weight: normal;
 }
+
 .navigation_header a:hover {
   color: #0b8dd4;
 }
@@ -55,7 +60,7 @@ a {
   font-size: 40px;
 }
 
-.quemSomos{
+.quemSomos {
   background-image: url("../img/Quem-somos.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,49 +99,50 @@ a {
 
 .section-3 {
   color: white;
-  background: #050F2C; /* Alteração temporária*/
+  background: #050F2C;
+  /* Alteração temporária*/
   padding: 2rem;
   margin-top: 2rem;
 }
 
-.section-3 h2{
+.section-3 h2 {
   font-size: 30px;
 }
 
 
 /*Licenças da TX - Tabelas*/
 
-.tabelas{
+.tabelas {
   display: grid;
   grid-template-columns: repeat(6, 210px);
   padding-top: 45px;
 }
 
-.section-3 h2{
+.section-3 h2 {
   font-size: 40px;
 }
 
-.section-3 h3{
+.section-3 h3 {
   padding: 15px
 }
 
-.tabelas li{
+.tabelas li {
   margin-left: 10px;
-  
+
 }
 
-.section-3 li div{
-  height: 254px; 
+.section-3 li div {
+  height: 254px;
   padding-top: 40px;
 }
 
-.vantagens{
+.vantagens {
   background-color: #fff;
   text-align: center;
   color: black;
 }
 
-.vantagensTwo{
+.vantagensTwo {
   margin-top: 10px;
   background-color: #fff;
   text-align: left;
@@ -145,17 +151,17 @@ a {
   font-size: 20px;
 }
 
-.vantagensTwo h5{
+.vantagensTwo h5 {
   font-weight: 400;
   width: 200px;
 }
 
-.Stand{
+.Stand {
   background-color: #66F622;
   text-align: center;
 }
 
-.StandTwo{
+.StandTwo {
   margin-top: 10px;
   background-color: #fff;
   color: #66F622;
@@ -164,27 +170,28 @@ a {
   font-weight: 900;
 }
 
-.Smart{
+.Smart {
   background-color: #1035A0;
   text-align: center;
 }
 
-.SmartTwo{
+.SmartTwo {
   margin-top: 10px;
   color: #1035A0;
-  background-color:#fff;
-  text-align: center;;
+  background-color: #fff;
+  text-align: center;
+  ;
   font-size: 30px;
   font-weight: 900;
   padding-left: 10px;
 }
 
-.Evo{
+.Evo {
   background-color: #881FBA;
   text-align: center;
 }
 
-.EvoTwo{
+.EvoTwo {
   margin-top: 10px;
   color: #881FBA;
   background-color: #fff;
@@ -194,12 +201,13 @@ a {
   font-weight: 900;
 }
 
-.Select{
-  background-color: #CF219E;;
+.Select {
+  background-color: #CF219E;
+  ;
   text-align: center;
 }
 
-.SelectTwo{
+.SelectTwo {
   margin-top: 10px;
   color: #CF219E;
   background-color: #fff;
@@ -209,12 +217,12 @@ a {
   font-weight: 900;
 }
 
-.Prime{
+.Prime {
   background-color: #F3AF00;
   text-align: center;
 }
 
-.PrimeTwo{
+.PrimeTwo {
   margin-top: 10px;
   color: #F3AF00;
   background-color: #fff;
@@ -224,11 +232,11 @@ a {
   font-weight: 900;
 }
 
-hr{
+hr {
   margin-top: 17px;
 }
 
-.button-cta{
+.button-cta {
   background-color: #43b90d;
   color: #fff;
   font-weight: 600;
@@ -240,7 +248,7 @@ hr{
   transition: 0.7s;
 }
 
-.button-cta:hover{
+.button-cta:hover {
   color: #fff;
   background-color: #51ff00;
   transition: 0.7s;
@@ -263,59 +271,63 @@ hr{
     animation-duration: 1s;
     margin-left: -100vw;
   }
+
   .btn_icon_header {
     display: block;
   }
 }
+
 @keyframes showSidebar {
   from {
     margin-left: -100vw;
   }
+
   to {
     margin-left: -10vw;
   }
 }
 
-footer{
+footer {
   background-color: #050F2C;
   color: #fff;
   padding-top: 55px;
   padding-left: 100px;
 }
 
-footer h4{
+footer h4 {
   padding-bottom: 10px;
   font-size: 20px;
   font-weight: 600;
 }
 
-.info{
+.info {
   display: flex;
 }
 
-.info h5, img{
+.info h5,
+img {
   font-weight: 300;
   padding-top: 5px;
   padding-left: 10px;
 }
 
-.rodape{
+.rodape {
   display: grid;
   grid-template-columns: repeat(2, 650px);
 }
 
-.sectionCta{
+.sectionCta {
   width: 60%;
   height: auto;
 }
 
-.sectionCta h3{
+.sectionCta h3 {
   width: 300px;
   padding-bottom: 5px;
 }
 
 
-.sectionCta button{
+.sectionCta button {
   color: #fff;
   font-size: 15px;
   font-weight: 600;
@@ -327,75 +339,85 @@ footer h4{
   transition: 0.7s;
 }
 
-.sectionCta button:hover{
+.sectionCta button:hover {
   color: #0891DD;
   background-color: #fff;
   transition: 0.7s;
 }
 
-.sectionBottom a, li{
+.sectionBottom a,
+li {
   list-style: none;
   text-decoration: none;
   color: #fff;
 }
 
-.sectionBottom ul{
+.sectionBottom ul {
   padding-top: 35px;
   display: grid;
-  grid-template-columns: repeat(5, 80px 100px 250px 180px 200px );
+  grid-template-columns: repeat(5, 80px 100px 250px 180px 200px);
 }
 
-.security ul{
-display: grid;
-grid-template-columns: repeat(2, 14rem);
-justify-content: right;
-text-align: center;
-padding-right: 30px;
+.security ul {
+  display: grid;
+  grid-template-columns: repeat(2, 14rem);
+  justify-content: right;
+  text-align: center;
+  padding-right: 30px;
 }
 
 
-.security p{
-font-size: 12px;
+.security p {
+  font-size: 12px;
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
 
-  .section-3 h2{
+  .section-3 h2 {
     font-size: 25px;
     margin: 10px;
   }
 
-  .tabelas{
-    grid-template-columns: repeat(1,  210px); 
+  .tabelas {
+    grid-template-columns: repeat(1, 210px);
   }
-  .tabelas li{
-    padding-top:30px;
+
+  .tabelas li {
+    padding-top: 30px;
     align-items: center;
   }
-.sectionBottom ul{
-  display: grid;
-  grid-template-columns: repeat(1,3280px);
-}
 
-.section-3{
-  align-items: center;
-  justify-content: center;
-  padding-left: 70px;
-}
+  .sectionBottom ul {
+    display: grid;
+    grid-template-columns: repeat(1, 3280px);
+    overflow: hidden;
+  }
 
-footer{
-  padding-left: 20px;
-  
-}
-/* 
-.sectionCta{
-  display: none;
-}
-.security{
-  display: none;
+
+  .section-3 {
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+  }
+
+  footer {
+    padding-left: 20px;
+  }
+
+  /* 
+.info {
+display: none;
 } */
 
-  .rodape{
+  .section-mobile-none {
+    display: none;
+  }
+
+  #section-mobile-none {
+    display: none;
+  }
+
+  .rodape {
     display: grid;
     grid-template-columns: (1, 20px);
   }
